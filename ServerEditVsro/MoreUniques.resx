@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Event Uniques:
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_20 1 - Princess Miyene Lv.20
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_24 1 - Princess Miyene Lv.24
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_30 1 - Princess Miyene Lv.30
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_40 1 - Princess Miyene Lv.40
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_60 1 - Princess Miyene Lv.60
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_80 1 - Princess Miyene Lv.80
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_90 1 - Princess Miyene Lv.90
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_100 1 - Princess Miyene Lv.100
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_20 1 - White Knight Lv.20
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_24 1 - White Knight Lv.24
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_30 1 - White Knight Lv.30
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_40 1 - White Knight Lv.40
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_60 1 - White Knight Lv.60
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_80 1 - White Knight Lv.80
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_90 1 - White Knight Lv.90
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_100 1 - White Knight Lv.100
+
+Fortress Uniques:
+/LOADMONSTER MOB_FW_HYEONGCHEON_040 1 - Senior General Lv.40
+/LOADMONSTER MOB_FW_TAESE_045 1 - Tai-Sui Lv. 45
+/LOADMONSTER MOB_FW_MUJIGI_050 1 - Rage Cloud Lv.50
+
+others Uniques:
+/LOADMONSTER MOB_TQ_BLACKSNAKE 1 - SoSo The Black Viper
+/LOADMONSTER MOB_TQ_FLAMEMASTER 1 - ShinMoo The man of Flames
+/LOADMONSTER MOB_TQ_EASTGUARDIAN 1 - SoHaow The White Tiger
+/LOADMONSTER MOB_TQ_NORTHGUARDIAN 1 - JeonUk The Black Tortoise
+/LOADMONSTER MOB_TQ_SOUTHGUARDIAN 1 - YumJae The Blue Hawk
+/LOADMONSTER MOB_TQ_WESTGUARDIAN 1 - TaeHo The Blue Dragon
+/LOADMONSTER MOB_RM_DEVILSAYTAN 1 - Devil Shaitan Lv.100
+/LOADMONSTER MOB_RM_SPIRITS 1 - Undine
+/LOADMONSTER MOB_RM_SPIRITS_CLON 1 - Salamander
+/LOADMONSTER MOB_RM_SPIRITS_CLON2 1 - Sylph
+/LOADMONSTER MOB_RM_SPIRITS_CLON3 1 - Gnome
+
+4 elemental unique [Occurs almost every 5 minutes]:
+/LOADMONSTER MOB_RM_SPIRITS 1 - Undine
+/LOADMONSTER MOB_RM_SPIRITS_CLON 1 - Salamander
+/LOADMONSTER MOB_RM_SPIRITS_CLON2 1 - Sylph
+/LOADMONSTER MOB_RM_SPIRITS_CLON3 1 - Gnome
+
+Forgotten World Uniques:
+/LOADMONSTER MOB_GOD_TOGUI_TOGUICAPTAIN_A2 1 - Togui Captain lv.47
+/LOADMONSTER MOB_GOD_TOGUI_TOGUICAPTAIN_B2 1 - Togui Captain lv.58
+/LOADMONSTER MOB_GOD_TOGUI_TOGUICAPTAIN_C2 1 - Togui Captain lv.68
+
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIELDER_A2 1 - Togui Elder lv.47
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIELDER_B2 1 - Togui Elder lv.58
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIELDER_C2 1 - Togui Elder lv.68
+
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIGENERAL_A2 1 - Togui General lv.47
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIGENERAL_B2 1 - Togui General lv.58
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIGENERAL_C2 1 - Togui General lv.68
+
+/LOADMONSTER MOB_GOD_FLAME_ADJUTANT_A4 1 - Flame Adjutant Honghaea lv.79
+/LOADMONSTER MOB_GOD_FLAME_ADJUTANT_B4 1 - Flame Adjutant Honghaea lv.89
+
+/LOADMONSTER MOB_GOD_FLAME_CAPTAIN_A4 1 - Flame Captain lv.79
+/LOADMONSTER MOB_GOD_FLAME_CAPTAIN_B4 1 - Flame Captain lv.89
+
+/LOADMONSTER MOB_GOD_FLAME_COWKING_A4 1 - Flame Cow King lv.79
+/LOADMONSTER MOB_GOD_FLAME_COWKING_B4 1 - Flame Cow King lv.89
+
+/LOADMONSTER MOB_GOD_GHOST_BEAST_A4 1 - Ghost Beast lv.99
+/LOADMONSTER MOB_GOD_GHOST_BEAST_B4 1 - Ghost Beast lv.109
+
+/LOADMONSTER MOB_GOD_GHOST_CURSE_A4 1 - Ghost Curse lv.99
+/LOADMONSTER MOB_GOD_GHOST_CURSE_B4 1 - Ghost Curse lv.109
+
+/LOADMONSTER MOB_GOD_GHOST_GLUTTONY_A4 1 - Ghost Gultton lv.99
+/LOADMONSTER MOB_GOD_GHOST_GLUTTONY_B4 1 - Ghost Gultton lv.109
+
+/LOADMONSTER MOB_GOD_GHOST_UNDINE_A4 1 - Ghost Sereness lv.99
+/LOADMONSTER MOB_GOD_GHOST_UNDINE_B4 1 - Ghost Sereness lv.109</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Event Uniqleri:
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_20 1 - Princess Miyene Lv.20
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_24 1 - Princess Miyene Lv.24
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_30 1 - Princess Miyene Lv.30
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_40 1 - Princess Miyene Lv.40
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_60 1 - Princess Miyene Lv.60
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_80 1 - Princess Miyene Lv.80
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_90 1 - Princess Miyene Lv.90
+/LOADMONSTER MOB_EV_WINTER_PRINCESS_100 1 - Princess Miyene Lv.100
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_20 1 - White Knight Lv.20
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_24 1 - White Knight Lv.24
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_30 1 - White Knight Lv.30
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_40 1 - White Knight Lv.40
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_60 1 - White Knight Lv.60
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_80 1 - White Knight Lv.80
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_90 1 - White Knight Lv.90
+/LOADMONSTER MOB_EV_WINTER_WHITEKNIGHT_100 1 - White Knight Lv.100
+
+Kale Uniqleri:
+/LOADMONSTER MOB_FW_HYEONGCHEON_040 1 - Senior General Lv.40
+/LOADMONSTER MOB_FW_TAESE_045 1 - Tai-Sui Lv. 45
+/LOADMONSTER MOB_FW_MUJIGI_050 1 - Rage Cloud Lv.50
+
+Diğer Uniqler:
+/LOADMONSTER MOB_TQ_BLACKSNAKE 1 - SoSo The Black Viper
+/LOADMONSTER MOB_TQ_FLAMEMASTER 1 - ShinMoo The man of Flames
+/LOADMONSTER MOB_TQ_EASTGUARDIAN 1 - SoHaow The White Tiger
+/LOADMONSTER MOB_TQ_NORTHGUARDIAN 1 - JeonUk The Black Tortoise
+/LOADMONSTER MOB_TQ_SOUTHGUARDIAN 1 - YumJae The Blue Hawk
+/LOADMONSTER MOB_TQ_WESTGUARDIAN 1 - TaeHo The Blue Dragon
+/LOADMONSTER MOB_RM_DEVILSAYTAN 1 - Devil Shaitan Lv.100
+/LOADMONSTER MOB_RM_SPIRITS 1 - Undine
+/LOADMONSTER MOB_RM_SPIRITS_CLON 1 - Salamander
+/LOADMONSTER MOB_RM_SPIRITS_CLON2 1 - Sylph
+/LOADMONSTER MOB_RM_SPIRITS_CLON3 1 - Gnome
+
+4 elemental unique [Neredeyse her 5 dakikada bir ortaya çıkar]:
+/LOADMONSTER MOB_RM_SPIRITS 1 - Undine
+/LOADMONSTER MOB_RM_SPIRITS_CLON 1 - Salamander
+/LOADMONSTER MOB_RM_SPIRITS_CLON2 1 - Sylph
+/LOADMONSTER MOB_RM_SPIRITS_CLON3 1 - Gnome
+
+Forgotten World Uniqleri:
+/LOADMONSTER MOB_GOD_TOGUI_TOGUICAPTAIN_A2 1 - Togui Captain lv.47
+/LOADMONSTER MOB_GOD_TOGUI_TOGUICAPTAIN_B2 1 - Togui Captain lv.58
+/LOADMONSTER MOB_GOD_TOGUI_TOGUICAPTAIN_C2 1 - Togui Captain lv.68
+
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIELDER_A2 1 - Togui Elder lv.47
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIELDER_B2 1 - Togui Elder lv.58
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIELDER_C2 1 - Togui Elder lv.68
+
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIGENERAL_A2 1 - Togui General lv.47
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIGENERAL_B2 1 - Togui General lv.58
+/LOADMONSTER MOB_GOD_TOGUI_TOGUIGENERAL_C2 1 - Togui General lv.68
+
+/LOADMONSTER MOB_GOD_FLAME_ADJUTANT_A4 1 - Flame Adjutant Honghaea lv.79
+/LOADMONSTER MOB_GOD_FLAME_ADJUTANT_B4 1 - Flame Adjutant Honghaea lv.89
+
+/LOADMONSTER MOB_GOD_FLAME_CAPTAIN_A4 1 - Flame Captain lv.79
+/LOADMONSTER MOB_GOD_FLAME_CAPTAIN_B4 1 - Flame Captain lv.89
+
+/LOADMONSTER MOB_GOD_FLAME_COWKING_A4 1 - Flame Cow King lv.79
+/LOADMONSTER MOB_GOD_FLAME_COWKING_B4 1 - Flame Cow King lv.89
+
+/LOADMONSTER MOB_GOD_GHOST_BEAST_A4 1 - Ghost Beast lv.99
+/LOADMONSTER MOB_GOD_GHOST_BEAST_B4 1 - Ghost Beast lv.109
+
+/LOADMONSTER MOB_GOD_GHOST_CURSE_A4 1 - Ghost Curse lv.99
+/LOADMONSTER MOB_GOD_GHOST_CURSE_B4 1 - Ghost Curse lv.109
+
+/LOADMONSTER MOB_GOD_GHOST_GLUTTONY_A4 1 - Ghost Gultton lv.99
+/LOADMONSTER MOB_GOD_GHOST_GLUTTONY_B4 1 - Ghost Gultton lv.109
+
+/LOADMONSTER MOB_GOD_GHOST_UNDINE_A4 1 - Ghost Sereness lv.99
+/LOADMONSTER MOB_GOD_GHOST_UNDINE_B4 1 - Ghost Sereness lv.109</value>
+  </data>
+</root>

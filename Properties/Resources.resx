@@ -1,0 +1,1957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mall_change_name" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_change_name.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_myowon_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_myowon_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_hp_inc_potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_hp_inc_potion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_abyss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_abyss.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (13th Degree Lv 101)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (13th Degree Lv 101).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree clothes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree clothes1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_bear_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_bear_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_hr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_hr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1972615" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1972615.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_11_set_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_11_set_a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_11_set_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_11_set_a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree  Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree  Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_newhalloween" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_newhalloween.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_carnival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_carnival.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_frostbite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_frostbite.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_move_speed_up_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_move_speed_up_50.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_gglider_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_gglider_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_event_winter_snowman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_event_winter_snowman.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Darkstaff1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Darkstaff1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree  Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree  Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_flute_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_flute_white.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nephthys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nephthys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_arabia_2013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_arabia_2013.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Degree clothes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Degree clothes1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2h B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2h B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_11_set_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_11_set_b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_nasrun_archemy_magicstone_umdu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_nasrun_archemy_magicstone_umdu.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_md" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_md.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocsetarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocsetarmor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_hr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_hr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_pirate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_pirate.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bard A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bard A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anubis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anubis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_reinforce_prob_up_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_reinforce_prob_up_a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 5 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 5 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ivy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ivy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 degre L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 degre L.Armor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sword A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sword A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cutting Glaive (5th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cutting Glaive (5th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 7 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 7 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e050729_summon_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e050729_summon_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (11th Degree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (11th Degree.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_char_skin_change_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_char_skin_change_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_devil_wing_dress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_devil_wing_dress.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_astral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_astral.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_arabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_arabia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_par" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_par.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_gacha_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_gacha_card.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_admiral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_admiral.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_move_speed_up_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_move_speed_up_100.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_upper_reinforce_weapon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_upper_reinforce_weapon2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_extension" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_extension.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (12th Degree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (12th Degree.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_blackwing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_blackwing.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre Armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_knight.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_11_set_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_11_set_b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_damage_abs_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_damage_abs_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hook Glaive (3rd Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hook Glaive (3rd Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (4th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (4th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_skill_restoration_potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_skill_restoration_potion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_burn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_burn.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_change_armor_gender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_change_armor_gender.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neith1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neith1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 9 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 9 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_brownie_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_brownie_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (9th Degree )" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (9th Degree ).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eueuearring_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eueuearring_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_int" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_int.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_nasrun_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_nasrun_blue.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (10th Degree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (10th Degree.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Daggers B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Daggers B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_damage_inc_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_damage_inc_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_heat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_heat.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light Armor B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Light Armor B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (14th Degree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (14th Degree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_critical.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_mp_inc_potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_mp_inc_potion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 9 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 9 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (1st Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (1st Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_ma.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moon Glaive (6th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moon Glaive (6th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Degree  Armor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Degree  Armor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Warlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Warlock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="osiris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\osiris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_zombie.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_solid.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EURO Shield B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EURO Shield B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (8th Degree Lv 64)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (8th Degree Lv 64).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_fairy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_fairy.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cleric B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cleric B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bronze Glaive (2nd Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bronze Glaive (2nd Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 1 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 1 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_reinforce_recipe_shield_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_reinforce_recipe_shield_b.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_pd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_pd.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (5th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (5th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_pastr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_pastr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uruchi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uruchi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragon Bow (13th Degree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon Bow (13th Degree.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Degree  Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Degree  Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_er" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_er.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2H A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2H A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive  (12th Degree Lv 101)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive  (12th Degree Lv 101).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lightning Glaive (4th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lightning Glaive (4th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Armor A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (6th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (6th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_quiver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_quiver.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_raven_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_raven_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1h A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1h A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19726151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19726151.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_evade_critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_evade_critical.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_luck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_luck.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (2nd Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (2nd Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 10 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 10 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_reinforce_recipe_armor_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_reinforce_recipe_armor_b.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 6 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 6 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hwanpotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hwanpotion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sword B (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sword B (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_fur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_fur.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_event_winter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_event_winter.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_c_tiger_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_c_tiger_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_maint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_maint.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mini_gold_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini_gold_icon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dual Axe A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dual Axe A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_ironwall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_ironwall.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_devil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_devil.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_mdint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_mdint.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre Armor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre Armor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (10th Degree Lv 90)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (10th Degree Lv 90).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre L.Armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clothes A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clothes A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_darkwarrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_darkwarrior.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Degree L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Degree L.Armor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_piratecrew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_piratecrew.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Staff B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Staff B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (15th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (15th Degree).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cıkıs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cıkıs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degre clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degre clothes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uruchi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uruchi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_guard.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_upper_reinforce_accessary2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_upper_reinforce_accessary2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degre clothes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degre clothes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_c_unicorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_c_unicorn.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bard B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bard B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_br" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_br.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clothes B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clothes B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 6 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 6 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_darklknight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_darklknight.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_flute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_flute.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_c_pegasus_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_c_pegasus_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 3 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 3 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_bolt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_bolt.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blade A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blade A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_sparta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_sparta.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_reinforce_recipe_accessary_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_reinforce_recipe_accessary_b.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_eshock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_eshock.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Armor B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_upper_reinforce_armor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_upper_reinforce_armor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_angel_wing_dress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_angel_wing_dress.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocsetclothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocsetclothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree  Armor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree  Armor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cerberus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerberus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 3 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 3 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_nasrun_extension" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_nasrun_extension.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleprot_hole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleprot_hole.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saytan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saytan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 8 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 8 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 2 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 2 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(8th Degree )" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(8th Degree ).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medusa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medusa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Horus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spear B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_shogun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_shogun.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_mar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_mar.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_amalrun_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_amalrun_blue.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 4 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 4 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wizz Staff B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wizz Staff B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree  Armor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree  Armor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_hp_superset_5_bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_hp_superset_5_bag.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_global_chatting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_global_chatting.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (7th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (7th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_11_set_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_11_set_a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cleric A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cleric A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre OneSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre OneSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_mummy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_mummy.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Staff A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Staff A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Cleric" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Cleric.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_sharp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_strongmind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_strongmind.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xbow A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xbow A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre L.Armor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree clothes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree clothes1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blade B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blade B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 1 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 1 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_ch_wedding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_ch_wedding.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e051125_santa_set_red_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e051125_santa_set_red_f.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 degre L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 degre L.Armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree L.Armor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 8 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 8 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cos_p_rabbit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cos_p_rabbit.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_goldpig_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_goldpig_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light Armor A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Light Armor A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_return_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_return_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_halloween" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_halloween.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_reverse_return_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_reverse_return_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_c_rudolph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_c_rudolph.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Daggers A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Daggers A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e060517_mon_generation_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e060517_mon_generation_box.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_repair_hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_repair_hammer.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (14th)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (14th).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_er" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_er.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_saintwarrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_saintwarrior.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sıfırla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sıfırla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (7th Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (7th Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13Degre Spear1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13Degre Spear1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_pdstr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_pdstr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kapak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kapak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 10 Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 10 Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHN Shield B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHN Shield B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_evade_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_evade_block.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocsetlightarmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocsetlightarmor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="neith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\neith.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree L.Armor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Tstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Tstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_turkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_turkey.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 5 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 5 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_hp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_hp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre clothes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_11_set_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_11_set_b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQL Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQL Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Degree clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Degree clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euearring_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euearring_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_athanasia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_athanasia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_earthspirit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_earthspirit.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (9th Degree Lv 76)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (9th Degree Lv 76).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EURO Shield A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EURO Shield A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_mp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_mp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dual Axe B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dual Axe B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1h B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1h B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (3rd Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (3rd Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Degree L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Degree L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_cat_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_cat_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 Degree staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 Degree staff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_dur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_dur.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (1st Degree)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (1st Degree).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degree Chn Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degree Chn Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 Degree EU clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 Degree EU clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Degre Axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Degre Axe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_inventory_addition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_inventory_addition.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_stupor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_stupor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 2 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 2 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Darkstaff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Darkstaff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eunecklace_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eunecklace_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_warehouse_addition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_warehouse_addition.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_premium_global_goldtime_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_premium_global_goldtime_plus.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_reinforce_recipe_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_reinforce_recipe_b.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow (15th Degree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow (15th Degree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_clown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_clown.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Harp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xbow B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xbow B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 7 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 7 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bow B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spear A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_newdevil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_newdevil.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_poison.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sphinx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sphinx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wizz Staff A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wizz Staff A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Chn L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Chn L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_cos_p_ghost_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_cos_p_ghost_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_magicstone_str" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_magicstone_str.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU Degree 4 L.Armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU Degree 4 L.Armor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14Degree Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14Degree Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 Degree Chn clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 Degree Chn clothes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Eu Sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Eu Sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_attrstone_pa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_attrstone_pa.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Degre TSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Degre TSword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invertor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invertor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHN Shield A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHN Shield A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degre clothes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degre clothes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="euring_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\euring_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archemy_upper_reinforce_shield2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archemy_upper_reinforce_shield2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EU13 Degre Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EU13 Degre Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="necklace_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\necklace_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 Degree Dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14 Degree Dagger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earring_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earring_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 degree CH sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 degree CH sword.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_avatar_m_eu_wedding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_avatar_m_eu_wedding.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 Degree Eu Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 Degree Eu Shield.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glaive (11th Degree Lv 101)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glaive (11th Degree Lv 101).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13Degre Blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13Degre Blade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14Degre Spear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14Degre Spear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_mp_superset_5_bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_mp_superset_5_bag.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mall_resurrection_scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mall_resurrection_scroll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Degree Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Degree Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rango_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rango_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

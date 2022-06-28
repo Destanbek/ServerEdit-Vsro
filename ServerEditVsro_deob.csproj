@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{83D6AA52-C4A2-435C-86BA-427434A0FC85}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>1</LangVersion>
+    <AssemblyName>ServerEditVsro</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <LangVersion>default</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GMHelper.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro.ProgramDataSet1TableAdapters\Sponsor2TableAdapter.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSet1TableAdapters\TableAdapterManager.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSet2TableAdapters\Sponsor3TableAdapter.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSet2TableAdapters\TableAdapterManager.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSet3TableAdapters\Sponsor4TableAdapter.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSet3TableAdapters\TableAdapterManager.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSetTableAdapters\SponsorTableAdapter.cs" />
+    <Compile Include="ServerEditVsro.ProgramDataSetTableAdapters\TableAdapterManager.cs" />
+    <Compile Include="ServerEditVsro.Properties\Resources.cs" />
+    <Compile Include="ServerEditVsro.Properties\Settings.cs" />
+    <Compile Include="ServerEditVsro\Accessory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Accessory.Designer.cs">
+      <DependentUpon>Accessory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\accounttemizle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\adminpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\alchemy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\alchemy.Designer.cs">
+      <DependentUpon>alchemy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\Armor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Armor.Designer.cs">
+      <DependentUpon>Armor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\artıbasmak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Avatar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Avatar.Designer.cs">
+      <DependentUpon>Avatar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\bluevermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\bugdancikar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\charbankaldir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\charbanla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\CharNickName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\CharNickName.Designer.cs">
+      <DependentUpon>CharNickName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\charıdbulmak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\datebaseyedekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\ddj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\elite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\f10dc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\f1fix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\gmyap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\goldvermek1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\gorevekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\gorevekleme.Designer.cs">
+      <DependentUpon>gorevekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\guildceza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\guildlevelvermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\guildlimit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\honorpointver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\honorrankfixle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\ipekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\itemsiloyunculardan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\jobcezakaldirmak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\jobcezasil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\jobrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\kullanıcııd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Language.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Language.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\LegendaryAccessory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\LegendaryAccessory.Designer.cs">
+      <DependentUpon>LegendaryAccessory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\LegendaryArmor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\LegendaryArmor.Designer.cs">
+      <DependentUpon>LegendaryArmor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\LegendWeapon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\LegendWeapon.Designer.cs">
+      <DependentUpon>LegendWeapon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\levelvermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\logtemizle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\mobcoğalt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\mobitemekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\mobitemkaldir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\MoreUniques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\MoreUniques.Designer.cs">
+      <DependentUpon>MoreUniques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\npcsil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\npctası.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\OthersItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\OthersItems.Designer.cs">
+      <DependentUpon>OthersItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\oyuncuyaitemgönder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\pillbugufix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\premiumsilmek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Program.cs" />
+    <Compile Include="ServerEditVsro\ProgramDataSet.cs" />
+    <Compile Include="ServerEditVsro\ProgramDataSet1.cs" />
+    <Compile Include="ServerEditVsro\ProgramDataSet2.cs" />
+    <Compile Include="ServerEditVsro\ProgramDataSet3.cs" />
+    <Compile Include="ServerEditVsro\quest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\RocSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\RocSet.Designer.cs">
+      <DependentUpon>RocSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\rütbevermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\shardtemizle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\silkver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\skillsıfırla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\spawn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\spvermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\statvermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\stonetutma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\strintvermek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\toplugoldver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\toplujanganisinla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\toplupksil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\toplurütbever.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\toplusilkver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\topluspver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\uniqsureleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Uniques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\Uniques.Designer.cs">
+      <DependentUpon>Uniques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\useryap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\WarpKod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\WarpKod.Designer.cs">
+      <DependentUpon>WarpKod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerEditVsro\weapons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerEditVsro\weapons.Designer.cs">
+      <DependentUpon>weapons.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro.Properties\Resources.resx" />
+    <EmbeddedResource Include="ServerEditVsro\Accessory.resx">
+      <DependentUpon>Accessory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\accounttemizle.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\Adminlogin.resx" />
+    <EmbeddedResource Include="ServerEditVsro\adminpanel.resx" />
+    <EmbeddedResource Include="ServerEditVsro\alchemy.resx">
+      <DependentUpon>alchemy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\Armor.resx">
+      <DependentUpon>Armor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\artıbasmak.resx" />
+    <EmbeddedResource Include="ServerEditVsro\Avatar.resx">
+      <DependentUpon>Avatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\bluevermek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\bugdancikar.resx" />
+    <EmbeddedResource Include="ServerEditVsro\charbankaldir.resx" />
+    <EmbeddedResource Include="ServerEditVsro\charbanla.resx" />
+    <EmbeddedResource Include="ServerEditVsro\CharNickName.resx">
+      <DependentUpon>CharNickName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\charıdbulmak.resx" />
+    <EmbeddedResource Include="ServerEditVsro\datebaseyedekleme.resx" />
+    <EmbeddedResource Include="ServerEditVsro\ddj.resx" />
+    <EmbeddedResource Include="ServerEditVsro\elite.resx" />
+    <EmbeddedResource Include="ServerEditVsro\f10dc.resx" />
+    <EmbeddedResource Include="ServerEditVsro\f1fix.resx" />
+    <EmbeddedResource Include="ServerEditVsro\Form1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\Form2.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\gmyap.resx" />
+    <EmbeddedResource Include="ServerEditVsro\goldvermek1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\gorevekleme.resx">
+      <DependentUpon>gorevekleme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\guildceza.resx" />
+    <EmbeddedResource Include="ServerEditVsro\guildlevelvermek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\guildlimit.resx" />
+    <EmbeddedResource Include="ServerEditVsro\honorpointver.resx" />
+    <EmbeddedResource Include="ServerEditVsro\honorrankfixle.resx" />
+    <EmbeddedResource Include="ServerEditVsro\ipekle.resx" />
+    <EmbeddedResource Include="ServerEditVsro\itemsiloyunculardan.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\jobcezakaldirmak.resx" />
+    <EmbeddedResource Include="ServerEditVsro\jobcezasil.resx" />
+    <EmbeddedResource Include="ServerEditVsro\jobrate.resx" />
+    <EmbeddedResource Include="ServerEditVsro\kullanıcııd.resx">
+      <DependentUpon>kullanıcııd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\LegendaryAccessory.resx">
+      <DependentUpon>LegendaryAccessory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\LegendaryArmor.resx">
+      <DependentUpon>LegendaryArmor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\LegendWeapon.resx">
+      <DependentUpon>LegendWeapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\levelvermek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\LoginForm.resx" />
+    <EmbeddedResource Include="ServerEditVsro\logtemizle.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\mobcoğalt.resx" />
+    <EmbeddedResource Include="ServerEditVsro\mobitemekle.resx" />
+    <EmbeddedResource Include="ServerEditVsro\mobitemkaldir.resx" />
+    <EmbeddedResource Include="ServerEditVsro\MoreUniques.resx">
+      <DependentUpon>MoreUniques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\npcsil.resx" />
+    <EmbeddedResource Include="ServerEditVsro\npctası.resx" />
+    <EmbeddedResource Include="ServerEditVsro\OthersItems.resx">
+      <DependentUpon>OthersItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\oyuncuyaitemgönder.resx" />
+    <EmbeddedResource Include="ServerEditVsro\pillbugufix.resx" />
+    <EmbeddedResource Include="ServerEditVsro\premiumsilmek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\quest.resx" />
+    <EmbeddedResource Include="ServerEditVsro\RocSet.resx">
+      <DependentUpon>RocSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\rütbevermek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\shardtemizle.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\silkver.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\skillsıfırla.resx" />
+    <EmbeddedResource Include="ServerEditVsro\spawn.resx" />
+    <EmbeddedResource Include="ServerEditVsro\spvermek.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\statvermek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\stonetutma.resx" />
+    <EmbeddedResource Include="ServerEditVsro\strintvermek.resx" />
+    <EmbeddedResource Include="ServerEditVsro\toplugoldver.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\toplujanganisinla.resx" />
+    <EmbeddedResource Include="ServerEditVsro\toplupksil.resx" />
+    <EmbeddedResource Include="ServerEditVsro\toplurütbever.resx" />
+    <EmbeddedResource Include="ServerEditVsro\toplusilkver.resx" />
+    <EmbeddedResource Include="ServerEditVsro\topluspver.resx" />
+    <EmbeddedResource Include="ServerEditVsro\uniqsureleri.resx" />
+    <EmbeddedResource Include="ServerEditVsro\Uniques.resx">
+      <DependentUpon>Uniques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\useryap.resx" />
+    <EmbeddedResource Include="ServerEditVsro\WarpKod.resx">
+      <DependentUpon>WarpKod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerEditVsro\weapons.resx">
+      <DependentUpon>weapons.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ServerEditVsro\Language.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Language.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kapak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_reinforce_recipe_b.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_reinforce_recipe_shield_b.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_reinforce_recipe_armor_b.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_reinforce_recipe_accessary_b.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_upper_reinforce_weapon2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_upper_reinforce_shield2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_upper_reinforce_armor2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_upper_reinforce_accessary2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_str.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_int.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_dur.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_hr.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_er.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_evade_block.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_evade_critical.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_hp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_mp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_frostbite.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_eshock.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_burn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_poison.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_zombie.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_athanasia.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_luck.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_solid.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_astral.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_pa.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_pastr.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_ma.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_maint.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_critical.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_hr.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_pd.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_mdint.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_br.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_md.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_pdstr.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_er.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_par.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_attrstone_mar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_sharp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_ironwall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_devil.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_guard.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_abyss.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_heat.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_stupor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_magicstone_strongmind.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_angel_wing_dress.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_devil_wing_dress.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_nasrun_blue.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_amalrun_blue.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_arabia.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_blackwing.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_carnival.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_ch_wedding.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_eu_wedding.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_clown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_darklknight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_earthspirit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_event_winter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_fairy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_fur.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_halloween.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_knight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_newdevil.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_newhalloween.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_pirate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_piratecrew.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_saintwarrior.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_shogun.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_turkey.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_sparta.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_admiral.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_arabia_2013.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_mummy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_avatar_m_darkwarrior.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerberus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ivy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saytan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medusa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sphinx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neith1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\osiris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nephthys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anubis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uruchi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_reverse_return_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_return_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwanpotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_hp_inc_potion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_mp_inc_potion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_hp_superset_5_bag.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_mp_superset_5_bag.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_premium_global_goldtime_plus.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_char_skin_change_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_resurrection_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_change_name.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_global_chatting.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_gacha_card.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_nasrun_archemy_magicstone_umdu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_nasrun_extension.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_move_speed_up_50.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_move_speed_up_100.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_quiver.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_bolt.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_warehouse_addition.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_inventory_addition.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_repair_hammer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_change_armor_gender.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleprot_hole.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_damage_abs_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_damage_inc_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e060517_mon_generation_box.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e050729_summon_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mall_skill_restoration_potion.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e051125_santa_set_red_f.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_c_rudolph.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_c_unicorn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_c_pegasus_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_c_tiger_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_flute.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_flute_white.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_bear_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_raven_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cos_p_rabbit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_cat_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_myowon_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_goldpig_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_event_winter_snowman.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_ghost_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_gglider_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_brownie_scroll.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_cos_p_extension.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archemy_reinforce_prob_up_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Degree Chn Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11 Degree  Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12 Degree  Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Degree  Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14 Degree Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Degre Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Degree Chn L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11 Degree L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12 Degree L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Degree L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14 degre L.Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Degre L.Armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Degree Chn clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11 Degree clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12 Degree clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Degree clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14 Degre clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Degre clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 1 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 2 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 3 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 4 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 5 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 6 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 7 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 8 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 9 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 10 Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11 Degree  Armor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12 Degree  Armor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Degree  Armor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Degre Armor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 1 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 2 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 3 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 4 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 5 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 6 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 7 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 8 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 9 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EU Degree 10 L.Armor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11 Degree L.Armor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12 Degree L.Armor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Degree L.Armor1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14 degre L.Armor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Degre L.Armor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Degree EU clothes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11 Degree clothes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12 Degree clothes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Degree clothes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14 Degre clothes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Degre clothes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GMHelper.ico" />
+    <None Include="Resources\rango_1.jpg" />
+    <None Include="Resources\rango_2b.bmp" />
+    <None Include="Resources\rango_1.bmp" />
+    <None Include="Resources\cıkıs.png" />
+    <None Include="Resources\logout1.ico" />
+    <None Include="Resources\logout.ico" />
+    <None Include="Resources\logout1.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\sıfırla.png" />
+    <None Include="Resources\sro.gif" />
+    <None Include="Resources\ekko.gif" />
+    <None Include="Resources\SQL Logo.png" />
+    <None Include="Resources\invertor.png" />
+    <None Include="Resources\mini_gold_icon.bmp" />
+    <None Include="Resources\ring_11_set_b.jpg" />
+    <None Include="Resources\necklace_11_set_b.jpg" />
+    <None Include="Resources\necklace_11_set_a.jpg" />
+    <None Include="Resources\ring_11_set_a.jpg" />
+    <None Include="Resources\earring_11_set_b.jpg" />
+    <None Include="Resources\earring_11_set_a.jpg" />
+    <None Include="Resources\Light Armor B.jpg" />
+    <None Include="Resources\Clothes B.jpg" />
+    <None Include="Resources\Armor B.jpg" />
+    <None Include="Resources\Light Armor A.jpg" />
+    <None Include="Resources\Clothes A.jpg" />
+    <None Include="Resources\Armor A.jpg" />
+    <None Include="Resources\Xbow B.jpg" />
+    <None Include="Resources\Wizz Staff B.jpg" />
+    <None Include="Resources\EURO Shield B.jpg" />
+    <None Include="Resources\Dual Axe B.jpg" />
+    <None Include="Resources\Dark Staff B.jpg" />
+    <None Include="Resources\Daggers B.jpg" />
+    <None Include="Resources\Cleric B.jpg" />
+    <None Include="Resources\Bard B.jpg" />
+    <None Include="Resources\2h B.jpg" />
+    <None Include="Resources\1h B.jpg" />
+    <None Include="Resources\Xbow A.jpg" />
+    <None Include="Resources\Wizz Staff A.jpg" />
+    <None Include="Resources\EURO Shield A.jpg" />
+    <None Include="Resources\Dual Axe A.jpg" />
+    <None Include="Resources\Dark Staff A.jpg" />
+    <None Include="Resources\Daggers A.jpg" />
+    <None Include="Resources\Cleric A.jpg" />
+    <None Include="Resources\Bard A.jpg" />
+    <None Include="Resources\2H A.jpg" />
+    <None Include="Resources\1h A.jpg" />
+    <None Include="Resources\Sword B %281%29.jpg" />
+    <None Include="Resources\Spear B.jpg" />
+    <None Include="Resources\Glaive B.jpg" />
+    <None Include="Resources\CHN Shield B.jpg" />
+    <None Include="Resources\Bow B.jpg" />
+    <None Include="Resources\Blade B.jpg" />
+    <None Include="Resources\Sword A.jpg" />
+    <None Include="Resources\Spear A.jpg" />
+    <None Include="Resources\Glaive A.jpg" />
+    <None Include="Resources\CHN Shield A.jpg" />
+    <None Include="Resources\Bow A.jpg" />
+    <None Include="Resources\Blade A.jpg" />
+    <None Include="Resources\rocsetlightarmor.jpg" />
+    <None Include="Resources\rocsetclothes.jpg" />
+    <None Include="Resources\rocsetarmor.jpg" />
+    <None Include="Resources\eunecklace_10.jpg" />
+    <None Include="Resources\eunecklace_09.jpg" />
+    <None Include="Resources\eunecklace_08.jpg" />
+    <None Include="Resources\eunecklace_07.jpg" />
+    <None Include="Resources\eunecklace_06.jpg" />
+    <None Include="Resources\eunecklace_05.jpg" />
+    <None Include="Resources\eunecklace_04.jpg" />
+    <None Include="Resources\eunecklace_03.jpg" />
+    <None Include="Resources\eunecklace_02.jpg" />
+    <None Include="Resources\eunecklace_01.jpg" />
+    <None Include="Resources\eueuearring_08.jpg" />
+    <None Include="Resources\euearring_10.jpg" />
+    <None Include="Resources\euearring_09.jpg" />
+    <None Include="Resources\euearring_07.jpg" />
+    <None Include="Resources\euearring_06.jpg" />
+    <None Include="Resources\euearring_05.jpg" />
+    <None Include="Resources\euearring_04.jpg" />
+    <None Include="Resources\euearring_03.jpg" />
+    <None Include="Resources\euearring_02.jpg" />
+    <None Include="Resources\euearring_01.jpg" />
+    <None Include="Resources\euring_15.jpg" />
+    <None Include="Resources\euring_14.jpg" />
+    <None Include="Resources\euring_13.jpg" />
+    <None Include="Resources\euring_12.jpg" />
+    <None Include="Resources\euring_11.jpg" />
+    <None Include="Resources\euring_10.jpg" />
+    <None Include="Resources\euring_09.jpg" />
+    <None Include="Resources\euring_08.jpg" />
+    <None Include="Resources\euring_07.jpg" />
+    <None Include="Resources\euring_06.jpg" />
+    <None Include="Resources\euring_05.jpg" />
+    <None Include="Resources\euring_04.jpg" />
+    <None Include="Resources\euring_03.jpg" />
+    <None Include="Resources\euring_02.jpg" />
+    <None Include="Resources\euring_01.jpg" />
+    <None Include="Resources\necklace_15.jpg" />
+    <None Include="Resources\necklace_14.jpg" />
+    <None Include="Resources\necklace_13.jpg" />
+    <None Include="Resources\necklace_12.jpg" />
+    <None Include="Resources\necklace_11.jpg" />
+    <None Include="Resources\necklace_10.jpg" />
+    <None Include="Resources\necklace_09.jpg" />
+    <None Include="Resources\necklace_08.jpg" />
+    <None Include="Resources\necklace_07.jpg" />
+    <None Include="Resources\necklace_06.jpg" />
+    <None Include="Resources\necklace_05.jpg" />
+    <None Include="Resources\necklace_04.jpg" />
+    <None Include="Resources\necklace_03.jpg" />
+    <None Include="Resources\necklace_02.jpg" />
+    <None Include="Resources\necklace_01.jpg" />
+    <None Include="Resources\earring_15.jpg" />
+    <None Include="Resources\earring_14.jpg" />
+    <None Include="Resources\earring_13.jpg" />
+    <None Include="Resources\earring_12.jpg" />
+    <None Include="Resources\earring_11.jpg" />
+    <None Include="Resources\earring_10.jpg" />
+    <None Include="Resources\earring_09.jpg" />
+    <None Include="Resources\earring_08.jpg" />
+    <None Include="Resources\earring_07.jpg" />
+    <None Include="Resources\earring_06.jpg" />
+    <None Include="Resources\earring_05.jpg" />
+    <None Include="Resources\earring_04.jpg" />
+    <None Include="Resources\earring_03.jpg" />
+    <None Include="Resources\earring_02.jpg" />
+    <None Include="Resources\earring_01.jpg" />
+    <None Include="Resources\ring_15.jpg" />
+    <None Include="Resources\ring_14.jpg" />
+    <None Include="Resources\ring_13.jpg" />
+    <None Include="Resources\ring_12.jpg" />
+    <None Include="Resources\ring_11.jpg" />
+    <None Include="Resources\ring_10.jpg" />
+    <None Include="Resources\ring_09.jpg" />
+    <None Include="Resources\ring_08.jpg" />
+    <None Include="Resources\ring_07.jpg" />
+    <None Include="Resources\ring_06.jpg" />
+    <None Include="Resources\ring_05.jpg" />
+    <None Include="Resources\ring_04.png" />
+    <None Include="Resources\ring_03.png" />
+    <None Include="Resources\ring_02.png" />
+    <None Include="Resources\ring_01.png" />
+    <None Include="Resources\EU13 Degre Shield.jpg" />
+    <None Include="Resources\15 Degree Eu Shield.jpg" />
+    <None Include="Resources\14 Degree Eu Shield.jpg" />
+    <None Include="Resources\12 Degree Eu Shield.jpg" />
+    <None Include="Resources\11 Degree Eu Shield.jpg" />
+    <None Include="Resources\10 Degree Eu Shield.jpg" />
+    <None Include="Resources\9 Degree Eu Shield.jpg" />
+    <None Include="Resources\8 Degree Eu Shield.jpg" />
+    <None Include="Resources\7 Degree Eu Shield.jpg" />
+    <None Include="Resources\6 Degree Eu Shield.jpg" />
+    <None Include="Resources\5 Degree Eu Shield.jpg" />
+    <None Include="Resources\4 Degree Eu Shield.jpg" />
+    <None Include="Resources\3 Degree Eu Shield.jpg" />
+    <None Include="Resources\2 Degree Eu Shield.jpg" />
+    <None Include="Resources\1 Degree Eu Shield.jpg" />
+    <None Include="Resources\EU13 Degre Harp.jpg" />
+    <None Include="Resources\15 Degre Harp.jpg" />
+    <None Include="Resources\14 Degre Harp.jpg" />
+    <None Include="Resources\12 Degre Harp.jpg" />
+    <None Include="Resources\11 Degre Harp.jpg" />
+    <None Include="Resources\10 Degre Harp.jpg" />
+    <None Include="Resources\9 Degre Harp.jpg" />
+    <None Include="Resources\8 Degre Harp.jpg" />
+    <None Include="Resources\7 Degre Harp.jpg" />
+    <None Include="Resources\6 Degre Harp.jpg" />
+    <None Include="Resources\5 Degre Harp.jpg" />
+    <None Include="Resources\4 Degre Harp.jpg" />
+    <None Include="Resources\3 Degre Harp.jpg" />
+    <None Include="Resources\2 Degre Harp.jpg" />
+    <None Include="Resources\1 Degre Harp.jpg" />
+    <None Include="Resources\EU13 Degre Dagger.jpg" />
+    <None Include="Resources\15 Degree Dagger.jpg" />
+    <None Include="Resources\14 Degree Dagger.jpg" />
+    <None Include="Resources\12 Degree Dagger.jpg" />
+    <None Include="Resources\11 Degree Dagger.jpg" />
+    <None Include="Resources\10 Degree Dagger.jpg" />
+    <None Include="Resources\9 Degree Dagger.jpg" />
+    <None Include="Resources\8 Degree Dagger.jpg" />
+    <None Include="Resources\7 Degree Dagger.jpg" />
+    <None Include="Resources\6 Degree Dagger.jpg" />
+    <None Include="Resources\5 Degree Dagger.jpg" />
+    <None Include="Resources\4 Degree Dagger.jpg" />
+    <None Include="Resources\3 Degree Dagger.jpg" />
+    <None Include="Resources\2 Degree Dagger.jpg" />
+    <None Include="Resources\1 Degree Dagger.jpg" />
+    <None Include="Resources\EU13 Degre Crossbow.jpg" />
+    <None Include="Resources\15 Degree Crossbow.jpg" />
+    <None Include="Resources\14 Degree Crossbow.jpg" />
+    <None Include="Resources\12 Degree Crossbow.jpg" />
+    <None Include="Resources\11 Degree Crossbow.jpg" />
+    <None Include="Resources\10 Degree Crossbow.jpg" />
+    <None Include="Resources\9 Degree Crossbow.jpg" />
+    <None Include="Resources\8 Degree Crossbow.jpg" />
+    <None Include="Resources\7 Degree Crossbow.jpg" />
+    <None Include="Resources\6 Degree Crossbow.jpg" />
+    <None Include="Resources\5 Degree Crossbow.jpg" />
+    <None Include="Resources\4 Degree Crossbow.jpg" />
+    <None Include="Resources\3 Degree Crossbow.jpg" />
+    <None Include="Resources\2 Degree Crossbow.jpg" />
+    <None Include="Resources\1 Degree Crossbow.jpg" />
+    <None Include="Resources\1 Degree Darkstaff1.jpg" />
+    <None Include="Resources\EU13 Degre Warlock.jpg" />
+    <None Include="Resources\15 Degree Darkstaff.jpg" />
+    <None Include="Resources\14 Degree Darkstaff.jpg" />
+    <None Include="Resources\12 Degree Darkstaff.jpg" />
+    <None Include="Resources\11 Degree Darkstaff.jpg" />
+    <None Include="Resources\10 Degree Darkstaff.jpg" />
+    <None Include="Resources\9 Degree Darkstaff.jpg" />
+    <None Include="Resources\8 Degree Darkstaff.jpg" />
+    <None Include="Resources\7 Degree Darkstaff.jpg" />
+    <None Include="Resources\6 Degree Darkstaff.jpg" />
+    <None Include="Resources\5 Degree Darkstaff.jpg" />
+    <None Include="Resources\4 Degree Darkstaff.jpg" />
+    <None Include="Resources\3 Degree Darkstaff.jpg" />
+    <None Include="Resources\2 Degree Darkstaff.jpg" />
+    <None Include="Resources\1 Degree Darkstaff.jpg" />
+    <None Include="Resources\EU13 Degre Cleric.jpg" />
+    <None Include="Resources\15 Degree staff.jpg" />
+    <None Include="Resources\14 Degree staff.jpg" />
+    <None Include="Resources\12 Degree staff.jpg" />
+    <None Include="Resources\11 Degree staff.jpg" />
+    <None Include="Resources\10 Degree staff.jpg" />
+    <None Include="Resources\9 Degree staff.jpg" />
+    <None Include="Resources\8 Degree staff.jpg" />
+    <None Include="Resources\7 Degree staff.jpg" />
+    <None Include="Resources\6 Degree staff.jpg" />
+    <None Include="Resources\5 Degree staff.jpg" />
+    <None Include="Resources\4 Degree staff.jpg" />
+    <None Include="Resources\3 Degree staff.jpg" />
+    <None Include="Resources\2 Degree staff.jpg" />
+    <None Include="Resources\1 Degree staff.jpg" />
+    <None Include="Resources\EU13 Degre Tstaff.jpg" />
+    <None Include="Resources\15 Degree Tstaff.jpg" />
+    <None Include="Resources\14 Degree Tstaff.jpg" />
+    <None Include="Resources\12 Degree Tstaff.jpg" />
+    <None Include="Resources\11 Degree Tstaff.jpg" />
+    <None Include="Resources\10 Degree Tstaff.jpg" />
+    <None Include="Resources\9 Degree Tstaff.jpg" />
+    <None Include="Resources\8 Degree Tstaff.jpg" />
+    <None Include="Resources\7 Degree Tstaff.jpg" />
+    <None Include="Resources\6 Degree Tstaff.jpg" />
+    <None Include="Resources\5 Degree Tstaff.jpg" />
+    <None Include="Resources\4 Degree Tstaff.jpg" />
+    <None Include="Resources\3 Degree Tstaff.jpg" />
+    <None Include="Resources\2 Degree Tstaff.jpg" />
+    <None Include="Resources\1 Degree Tstaff.jpg" />
+    <None Include="Resources\EU13 Degre Axe.jpg" />
+    <None Include="Resources\12 Degre Axe.jpg" />
+    <None Include="Resources\11 Degre Axe.jpg" />
+    <None Include="Resources\10 Degre Axe.jpg" />
+    <None Include="Resources\9 Degre Axe.jpg" />
+    <None Include="Resources\8 Degre Axe.jpg" />
+    <None Include="Resources\7 Degre Axe.jpg" />
+    <None Include="Resources\6 Degre Axe.jpg" />
+    <None Include="Resources\5 Degre Axe.jpg" />
+    <None Include="Resources\4 Degre Axe.jpg" />
+    <None Include="Resources\3 Degre Axe.jpg" />
+    <None Include="Resources\2 Degre Axe.jpg" />
+    <None Include="Resources\1 Degre Axe.jpg" />
+    <None Include="Resources\14 Degre Axe.jpg" />
+    <None Include="Resources\15 Degre Axe.jpg" />
+    <None Include="Resources\15 Degre TSword.jpg" />
+    <None Include="Resources\14 Degre TSword.jpg" />
+    <None Include="Resources\EU13 Degre TSword.jpg" />
+    <None Include="Resources\12 Degre TSword.jpg" />
+    <None Include="Resources\11 Degre TSword.jpg" />
+    <None Include="Resources\10 Degre TSword.jpg" />
+    <None Include="Resources\9 Degre TSword.jpg" />
+    <None Include="Resources\8 Degre TSword.jpg" />
+    <None Include="Resources\7 Degre TSword.jpg" />
+    <None Include="Resources\6 Degre TSword.jpg" />
+    <None Include="Resources\5 Degre TSword.jpg" />
+    <None Include="Resources\4 Degre TSword.jpg" />
+    <None Include="Resources\3 Degre TSword.jpg" />
+    <None Include="Resources\2 Degre TSword.jpg" />
+    <None Include="Resources\1 Degre TSword.jpg" />
+    <None Include="Resources\15 Degree Eu Sword.jpg" />
+    <None Include="Resources\14 Degree Eu Sword.jpg" />
+    <None Include="Resources\EU13 Degre OneSword.jpg" />
+    <None Include="Resources\12 Degree Eu Sword.jpg" />
+    <None Include="Resources\11 Degree Eu Sword.jpg" />
+    <None Include="Resources\10 Degree Eu Sword.jpg" />
+    <None Include="Resources\9 Degree Eu Sword.jpg" />
+    <None Include="Resources\8 Degree Eu Sword.jpg" />
+    <None Include="Resources\7 Degree Eu Sword.jpg" />
+    <None Include="Resources\6 Degree Eu Sword.jpg" />
+    <None Include="Resources\5 Degree Eu Sword.jpg" />
+    <None Include="Resources\4 Degree Eu Sword.jpg" />
+    <None Include="Resources\3 Degree Eu Sword.jpg" />
+    <None Include="Resources\2 Degree Eu Sword.jpg" />
+    <None Include="Resources\1 Degree Eu Sword.jpg" />
+    <None Include="Resources\4Degree Shield.jpg" />
+    <None Include="Resources\2Degree Shield.jpg" />
+    <None Include="Resources\3Degree Shield.jpg" />
+    <None Include="Resources\5Degree Shield.jpg" />
+    <None Include="Resources\6Degree Shield.jpg" />
+    <None Include="Resources\7Degree Shield.jpg" />
+    <None Include="Resources\8Degree Shield.jpg" />
+    <None Include="Resources\9Degree Shield.jpg" />
+    <None Include="Resources\10Degree Shield.jpg" />
+    <None Include="Resources\11Degree Shield.jpg" />
+    <None Include="Resources\12Degree Shield.jpg" />
+    <None Include="Resources\13Degree Shield.jpg" />
+    <None Include="Resources\14Degree Shield.jpg" />
+    <None Include="Resources\15Degree Shield.jpg" />
+    <None Include="Resources\1Degree Shield.jpg" />
+    <None Include="Resources\15Degre Blade.jpg" />
+    <None Include="Resources\14Degre Blade.jpg" />
+    <None Include="Resources\13Degre Blade.jpg" />
+    <None Include="Resources\12Degre Blade.jpg" />
+    <None Include="Resources\11Degre Blade.jpg" />
+    <None Include="Resources\10Degre Blade.jpg" />
+    <None Include="Resources\9Degre Blade.jpg" />
+    <None Include="Resources\8Degre Blade.jpg" />
+    <None Include="Resources\7Degre Blade.jpg" />
+    <None Include="Resources\6Degre Blade.jpg" />
+    <None Include="Resources\5Degre Blade.jpg" />
+    <None Include="Resources\4Degre Blade.jpg" />
+    <None Include="Resources\3Degre Blade.jpg" />
+    <None Include="Resources\2Degre Blade.jpg" />
+    <None Include="Resources\1Degre Blade.jpg" />
+    <None Include="Resources\1Degre Spear.jpg" />
+    <None Include="Resources\2Degre Spear.jpg" />
+    <None Include="Resources\3Degre Spear.jpg" />
+    <None Include="Resources\4Degre Spear.jpg" />
+    <None Include="Resources\5Degre Spear.jpg" />
+    <None Include="Resources\6Degre Spear.jpg" />
+    <None Include="Resources\7Degre Spear.jpg" />
+    <None Include="Resources\8Degre Spear.jpg" />
+    <None Include="Resources\9Degre Spear.jpg" />
+    <None Include="Resources\10Degre Spear.jpg" />
+    <None Include="Resources\11Degre Spear.jpg" />
+    <None Include="Resources\12Degre Spear.jpg" />
+    <None Include="Resources\13Degre Spear1.jpg" />
+    <None Include="Resources\13Degre Spear.jpg" />
+    <None Include="Resources\14Degre Spear.jpg" />
+    <None Include="Resources\15Degre Spear.jpg" />
+    <None Include="Resources\Glaive %2815th Degree%29.png" />
+    <None Include="Resources\Glaive %2814th%29.png" />
+    <None Include="Resources\Glaive %2813th Degree Lv 101%29.jpg" />
+    <None Include="Resources\Glaive  %2812th Degree Lv 101%29.jpg" />
+    <None Include="Resources\Glaive %2811th Degree Lv 101%29.jpg" />
+    <None Include="Resources\Glaive %2810th Degree Lv 90%29.jpg" />
+    <None Include="Resources\Glaive %289th Degree Lv 76%29.jpg" />
+    <None Include="Resources\Glaive %288th Degree Lv 64%29.jpg" />
+    <None Include="Resources\Glaive %287th Degree%29.jpg" />
+    <None Include="Resources\Moon Glaive %286th Degree%29.jpg" />
+    <None Include="Resources\Cutting Glaive %285th Degree%29.jpg" />
+    <None Include="Resources\Lightning Glaive %284th Degree%29.jpg" />
+    <None Include="Resources\Hook Glaive %283rd Degree%29.jpg" />
+    <None Include="Resources\Bronze Glaive %282nd Degree%29.jpg" />
+    <None Include="Resources\Glaive %281st Degree%29.jpg" />
+    <None Include="Resources\Bow %2815th Degree.png" />
+    <None Include="Resources\Bow %2814th Degree.png" />
+    <None Include="Resources\Dragon Bow %2813th Degree.jpg" />
+    <None Include="Resources\Bow %2812th Degree.jpg" />
+    <None Include="Resources\Bow %2811th Degree.jpg" />
+    <None Include="Resources\Bow %2810th Degree.jpg" />
+    <None Include="Resources\Bow %289th Degree %29.jpg" />
+    <None Include="Resources\%288th Degree %29.jpg" />
+    <None Include="Resources\Bow %287th Degree%29.jpg" />
+    <None Include="Resources\Bow %286th Degree%29.jpg" />
+    <None Include="Resources\Bow %285th Degree%29.jpg" />
+    <None Include="Resources\Bow %284th Degree%29.jpg" />
+    <None Include="Resources\Bow %283rd Degree%29.jpg" />
+    <None Include="Resources\Bow %282nd Degree%29.jpg" />
+    <None Include="Resources\Bow %281st Degree%29.jpg" />
+    <None Include="Resources\15 degree CH sword.jpg" />
+    <None Include="Resources\14 degree CH sword.jpg" />
+    <None Include="Resources\13 degree CH sword.jpg" />
+    <None Include="Resources\12 degree CH sword.jpg" />
+    <None Include="Resources\11 degree CH sword.jpg" />
+    <None Include="Resources\10 degree CH sword.jpg" />
+    <None Include="Resources\9 degree CH sword.jpg" />
+    <None Include="Resources\8 degree CH sword.jpg" />
+    <None Include="Resources\7 degree CH sword.jpg" />
+    <None Include="Resources\6 degree CH sword.jpg" />
+    <None Include="Resources\5 degree CH sword.jpg" />
+    <None Include="Resources\4 degree CH sword.jpg" />
+    <None Include="Resources\3 degree CH sword.jpg" />
+    <None Include="Resources\2 degree CH sword.jpg" />
+    <None Include="Resources\1 degree CH sword.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
