@@ -339,6 +339,7 @@ namespace ServerEditVsro
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -359,6 +360,9 @@ namespace ServerEditVsro
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button15 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.sponsor4BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.programDataSet3 = new ServerEditVsro.ProgramDataSet3();
             this.sponsor3BindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -371,10 +375,6 @@ namespace ServerEditVsro
             this.sponsor2TableAdapter = new ServerEditVsro.ProgramDataSet1TableAdapters.Sponsor2TableAdapter();
             this.sponsor3TableAdapter = new ServerEditVsro.ProgramDataSet2TableAdapters.Sponsor3TableAdapter();
             this.sponsor4TableAdapter = new ServerEditVsro.ProgramDataSet3TableAdapters.Sponsor4TableAdapter();
-            this.button15 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -394,6 +394,7 @@ namespace ServerEditVsro
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox6.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sponsor4BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.programDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sponsor3BindingSource)).BeginInit();
@@ -402,7 +403,6 @@ namespace ServerEditVsro
             ((System.ComponentModel.ISupportInitialize)(this.programDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sponsorBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.programDataSet)).BeginInit();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // ımageList1
@@ -1358,18 +1358,18 @@ namespace ServerEditVsro
             // 
             // groupBox8
             // 
-            this.groupBox8.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.groupBox8.BackColor = System.Drawing.Color.MediumPurple;
             this.groupBox8.Controls.Add(this.button70);
-            this.groupBox8.Location = new System.Drawing.Point(16, 450);
+            this.groupBox8.Location = new System.Drawing.Point(6, 467);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(167, 57);
+            this.groupBox8.Size = new System.Drawing.Size(188, 60);
             this.groupBox8.TabIndex = 2;
             this.groupBox8.TabStop = false;
             // 
             // button70
             // 
             this.button70.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button70.Location = new System.Drawing.Point(28, 10);
+            this.button70.Location = new System.Drawing.Point(38, 11);
             this.button70.Name = "button70";
             this.button70.Size = new System.Drawing.Size(114, 42);
             this.button70.TabIndex = 1;
@@ -1385,7 +1385,7 @@ namespace ServerEditVsro
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(6, 19);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(188, 498);
+            this.listBox1.Size = new System.Drawing.Size(188, 446);
             this.listBox1.TabIndex = 0;
             this.listBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDown);
             // 
@@ -1766,6 +1766,20 @@ namespace ServerEditVsro
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "GM Konsol Komutları";
             // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.RoyalBlue;
+            this.textBox3.ForeColor = System.Drawing.Color.Yellow;
+            this.textBox3.Location = new System.Drawing.Point(43, 19);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox3.Size = new System.Drawing.Size(564, 483);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.Text = resources.GetString("textBox3.Text");
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.RoyalBlue;
@@ -1971,6 +1985,42 @@ namespace ServerEditVsro
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button15.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button15.ForeColor = System.Drawing.Color.Yellow;
+            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
+            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button15.Location = new System.Drawing.Point(14, 606);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(169, 53);
+            this.button15.TabIndex = 17;
+            this.button15.Text = "Çıkış Yap";
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label8.Location = new System.Drawing.Point(49, 24);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 13);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Zaman";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Location = new System.Drawing.Point(198, 604);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(161, 53);
+            this.groupBox4.TabIndex = 20;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Sunucu zamanı";
+            // 
             // sponsor4BindingSource
             // 
             this.sponsor4BindingSource.DataMember = "Sponsor4";
@@ -2027,56 +2077,6 @@ namespace ServerEditVsro
             // 
             this.sponsor4TableAdapter.ClearBeforeFill = true;
             // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button15.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button15.ForeColor = System.Drawing.Color.Yellow;
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(14, 606);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(169, 53);
-            this.button15.TabIndex = 17;
-            this.button15.Text = "Çıkış Yap";
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label8.Location = new System.Drawing.Point(49, 24);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 13);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Zaman";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Location = new System.Drawing.Point(198, 604);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(161, 53);
-            this.groupBox4.TabIndex = 20;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Sunucu zamanı";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.RoyalBlue;
-            this.textBox3.ForeColor = System.Drawing.Color.Yellow;
-            this.textBox3.Location = new System.Drawing.Point(43, 19);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox3.Size = new System.Drawing.Size(564, 483);
-            this.textBox3.TabIndex = 0;
-            this.textBox3.Text = resources.GetString("textBox3.Text");
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2119,6 +2119,8 @@ namespace ServerEditVsro
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sponsor4BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.programDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sponsor3BindingSource)).EndInit();
@@ -2127,8 +2129,6 @@ namespace ServerEditVsro
             ((System.ComponentModel.ISupportInitialize)(this.programDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sponsorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.programDataSet)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
 		}

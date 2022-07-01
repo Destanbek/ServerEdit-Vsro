@@ -186,11 +186,11 @@ namespace ServerEditVsro
 					{
                         if (Language.Default.language == "English")
                         {
-                            MessageBox.Show("An error occurred!");
+                            MessageBox.Show("Tables Cleared Successfully!");
                         }
                         else
                         {
-                            MessageBox.Show("Hata Oluştu!");
+                            MessageBox.Show("Tablolar Başarı İle Temizlendi!");
                         }
 
 					}
@@ -336,11 +336,11 @@ namespace ServerEditVsro
                     {
                         if (Language.Default.language == "English")
                         {
-                            MessageBox.Show("An error occurred!");
+                            MessageBox.Show("Tables Cleared Successfully!");
                         }
                         else
                         {
-                            MessageBox.Show("Hata Oluştu!");
+                            MessageBox.Show("Tablolar Başarı İle Temizlendi!");
                         }
 
                     }
