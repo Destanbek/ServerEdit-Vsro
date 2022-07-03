@@ -307,8 +307,8 @@ namespace ServerEditVsro
         {
             if (radioButton1.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_REINFORCE_RECIPE_WEAPON_A 50"; }
             if (radioButton2.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_REINFORCE_RECIPE_SHIELD_A 50"; }
-            if (radioButton3.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_REINFORCE_RECIPE_ARRMOR_A 50"; }
-            if (radioButton4.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_REINFORCE_RECIPE_ACCESSORY_A 1"; }
+            if (radioButton3.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_REINFORCE_RECIPE_ARMOR_A 50"; }
+            if (radioButton4.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_REINFORCE_RECIPE_ACCESSARY_A 50"; }
             if (radioButton5.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_UPPER_REINFORCE_RECIPE_WE_A_0 1"; }
             if (radioButton6.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_UPPER_REINFORCE_RECIPE_SH_A_0 1"; }
             if (radioButton7.Checked == true) { textBox1.Text = "/MAKEITEM ITEM_ETC_ARCHEMY_UPPER_REINFORCE_RECIPE_PR_A_0 1"; }
