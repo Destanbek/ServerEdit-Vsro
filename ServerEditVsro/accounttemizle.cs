@@ -147,6 +147,7 @@ namespace ServerEditVsro
                         "TRUNCATE TABLE [dbo].[WEB_ITEM_CERTIFYKEY]" +
                         "TRUNCATE TABLE [dbo].[WEB_ITEM_GIVE_LIST]" +
                         "TRUNCATE TABLE [dbo].[WEB_ITEM_GIVE_LIST_DETAIL]" +
+                        "TRUNCATE TABLE [dbo].[WEB_ITEM_RESERVED]" +
                         "TRUNCATE TABLE [dbo].[WEB_ITEM_RENT_INFO]";
                         sqlCommand.ExecuteNonQuery();
                         sqlConnection.Close();
